@@ -1,26 +1,114 @@
-# Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
-## Problem Title
-SIH 1555: Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
-## Problem Description
-Background: The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. However, physical gardens that are not accessible to everyone. A Virtual Herbal Garden will bridge this gap by offering a digital platform where users can explore, learn, and understand the significance of various medicinal plants from the comfort of their homes. Description: Participants are tasked with developing a Virtual Herbal Garden that is engaging, informative, and user-friendly. This virtual garden should include: Interactive 3D Models: Realistic 3D models of medicinal plants that users can rotate, zoom, and explore from different angles. Detailed Information: Comprehensive details about each plant, including its botanical name, common names, habitat, medicinal uses, and methods of cultivation. Multimedia Integration: High-quality images, videos, and audio descriptions to enhance the learning experience. Search and Filter Options: Advanced search functionality to easily locate specific plants and filter them based on various criteria like medicinal uses, region, and type. Virtual Tours: Guided virtual tours highlighting specific themes, such as plants for digestive health, immunity, skin care, etc. User Interaction: Features that allow users to bookmark favourite plants, take notes, and share information on social media. Expected Outcome: The expected outcome is a comprehensive Virtual Herbal Garden that serves as a valuable educational tool for students, practitioners, and enthusiasts of the AYUSH sector. This platform should make the knowledge of medicinal plants accessible to a wider audience, promoting awareness and understanding of traditional herbal practices. It should be visually appealing, informative, and interactive, providing users with an immersive experience that combines technology with traditional knowledge.
+# 🌿 VedaVan – Virtual Herbal Garden for AYUSH
 
-## Problem Creater's Organization
-Ministry of Ayush
+### Smart India Hackathon 2025 – Software Edition
 
-## Idea
+---
+
+## 🮩 Problem Statement
+
+**Title:**
+Create a Virtual Herbal Garden that provides an interactive, educational, and immersive experience to users, showcasing the diverse range of medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy).
+
+**Background:**
+AYUSH systems rely on thousands of traditional medicinal plants for healing and wellness. However, physical herbal gardens are not accessible to everyone. To bridge this gap, we present **VedaVan** – a virtual, immersive, and interactive herbal garden that brings ancient plant knowledge into the digital era.
+
+---
+
+## 💡 Our Solution – VedaVan
+
+**VedaVan** is a web-based 3D Virtual Herbal Garden platform that allows users to explore, learn, and engage with India's vast medicinal plant heritage. Users can interact with realistic plant models, access detailed information, take guided virtual tours, and personalize their learning experience.
+
+---
+
+## 🧱 Features
+
+* 🔍 **Interactive 3D Models**
+  Realistic 3D models of medicinal plants with zoom, rotate, and inspect functionality.
+
+* 📚 **Educational Content**
+  Botanical names, common names, habitat, AYUSH uses, cultivation methods, and traditional knowledge.
+
+* 🎧 **Multimedia Integration**
+  High-resolution images, cultivation videos, plant pronunciation audio, and voice-based navigation.
+
+* 🔎 **Advanced Search & Filters**
+  Filter plants by medicinal use (e.g., digestion, immunity), region, type (tree, herb, shrub), and AYUSH system.
+
+* 🧱 **Guided Virtual Tours**
+  Themed tours like “Herbs for Immunity,” “Women’s Wellness,” and “Skin Care Herbs.”
+
+* ⭐ **User Personalization**
+  Bookmark favorite plants, take notes, and share insights on social platforms.
+
+* 🌐 **Multi-language Support**
+  Supports English and major Indian languages (Hindi, Tamil, etc.) for inclusivity.
+
+---
+
+## 🏗️ Architecture Overview
+
+```
+Frontend: React.js + Three.js (for 3D interaction)
+Backend: Node.js + Express
+Database: MongoDB (NoSQL structure for flexible plant metadata)
+Hosting: Firebase / Vercel
+APIs: Google Maps API, AYUSH data sources
+NLP: Dialogflow for natural plant search assistant
+```
+
+---
+
+## 📘 Use Cases
+
+| 👤 User      | 🌿 Action                           | 🌟 Outcome                                      |
+| ------------ | ----------------------------------- | ----------------------------------------------- |
+| Student      | Explore "Plants for Skin Care" tour | Learns about dermatological herbs               |
+| Practitioner | Search "Ashwagandha"                | Views 3D model, usage details, cultivation info |
+| Enthusiast   | Bookmark and take notes             | Builds a personal learning garden               |
+| Researcher   | Filter by region or plant type      | Discovers region-specific medicinal plants      |
+
+---
+
+## 🚀 Innovative Highlights
+
+* 🏋️‍♂️ **Gamified Learning** – Badges for completing herbal knowledge tours.
+* 🧐 **AI Assistant** – Plant chatbot guides users in choosing herbs by symptom.
+* 📷 **AR Mode (Future Scope)** – QR-code-based augmented reality integration for on-ground experiences.
+* 📊 **Dashboard for Institutions** – Usage analytics and feedback collection for researchers and educators.
+
+---
+
+## 🌟 Expected Outcomes
+
+* ✅ Increased accessibility to medicinal plant knowledge
+* ✅ A digital tool to promote AYUSH-based wellness
+* ✅ Engagement platform for students, researchers, and citizens
+* ✅ Visual, immersive, and multilingual experience
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology             |
+| ---------- | ---------------------- |
+| Frontend   | React.js, Three.js     |
+| Backend    | Node.js, Express       |
+| Database   | MongoDB                |
+| Hosting    | Firebase / Vercel      |
+| Multimedia | HTML5 Video, Audio API |
+| APIs       | Google Maps, AYUSH DB  |
+| AI/NLP     | Dialogflow             |
+
+---
 
 
-## Proposed Solution / Architecture Diagram
 
+## 🏩 Developed For
 
-## Use Cases
+Ministry of AYUSH
+**Smart India Hackathon 2025**
+Ministry Problem Statement – Virtual Herbal Garden
 
+---
 
-## Technology Stack
-
-
-## Dependencies
 
